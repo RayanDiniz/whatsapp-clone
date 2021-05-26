@@ -1,36 +1,29 @@
 import React from "react";
 import "./App.css";
+import BarraUser from "./components/BarraUser";
+import BarraAviso from "./components/BarraAviso";
+import BarraPesquisa from "./components/BarraPesquisa";
+import ListaChat from "./components/ListaChat";
+import ChatBemvindo from "./components/ChatBemvindo";
 const App = () => {
-    return (
+    return(
         <>
             <div className="app-window">
-
                 <div className="sidebar">
-                    
-                    <header className="barra">
-                        <div className="barra-do-usuario">
-                            barra do usario
-                        </div>
-                    </header>
 
-                    <span className="barra-de-aviso">
-                        avisos
-                    </span>
-
-                    <div className="barra-de-pesquisa">
-                        pesquisa
-                    </div>
-                    
-                    <div className="dms">
-                        local com as convessas do usuario
-                    </div>
+                    <BarraUser />
+                    <BarraAviso />
+                    <BarraPesquisa />
+                    <ListaChat />
 
                 </div>
 
                 <div className="chat">
-                    aqui fica o chat
-                </div>
 
+                    <ChatBemvindo />
+
+                </div>
+                
             </div>
         </>
     )

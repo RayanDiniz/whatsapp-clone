@@ -1,0 +1,21 @@
+
+.barra-do-usuario {
+    width: 100%;
+    padding: 10px 16px;
+    background-color: #ededed;
+    display: flex;
+    z-index: 1000;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-around;
+}
+.perfil-img-margin {
+    margin-right: 138px;
+    height: 40px; 
+    width: 40px;
+    cursor: pointer;}
+.icon {
+    color: rgb(153, 153, 153);
+    font-size: 22px;
+    margin: 3px 10px 0 13px;
+}

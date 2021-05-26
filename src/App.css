@@ -1,8 +1,8 @@
 * {
     margin: 0;
     padding: 0;
- }
-body{
+}
+body {
     font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
     color: #4a4a4a;
     -webkit-user-select: none;
@@ -12,32 +12,25 @@ body{
     text-rendering: optimizeLegibility;
     font-feature-settings: "kern";
     background-color: #dddbd1;
-    background-image: linear-gradient(
-180deg
-,#dddbd1,#d2dbdc);
+    background-image: linear-gradient( 180deg,#dddbd1,#d2dbdc);
 }
-.app-window{
+.app-window {
     margin: 0;
     padding: 0;
-    display: flex;
     width: 100%;
     height: 100vh;
 }
 .sidebar {
-    width: 35%;
+    width: 40%;
+    height: 100%;
     background-color: #ebebeb;
+    float: left;
 }
-.barra {
-    padding: 10px 16px;
-    background-color: #ededed;
-}.barra-do-usuario {
-    position: relative;
-    z-index: 1000;
-    box-sizing: border-box;
-    display: flex;
-    flex: none;
-    align-items: center;
-    justify-content: flex-end;
-    width: 100%;
-    height: 40px;
+.chat {
+    width: 60%;
+    height: 98.8%;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+    margin: 0;
+    float: right;
 }
